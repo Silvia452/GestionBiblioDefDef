@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:16.1
+    environment:
+    - POSTGRES_DB=GestionBiblioDefDef
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=admin
+    ports:
+    - 5433:5432
